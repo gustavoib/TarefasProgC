@@ -128,7 +128,7 @@ Aluno *pilha_busca(Pilha *pilha, int matricula) {
   int mat;
   char nome[50];
   char curso[30];
-  No* aux = pilha->primeiro;
+  No *aux = pilha->primeiro;
   
   while (aux != NULL) {
     alu_acessa(aux->aluno, &mat, nome, curso);
